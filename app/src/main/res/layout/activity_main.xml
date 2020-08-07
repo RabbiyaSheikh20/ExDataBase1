@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application Form"
+        android:layout_gravity="top|center"
+        android:textSize="26sp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed1"
+        android:hint="Your full name here"
+        android:layout_gravity="top|center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed2"
+        android:hint="Your email address here"
+        android:layout_gravity="top|center"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Data"
+        android:onClick="InsertData"
+        android:layout_gravity="top|center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See List"
+        android:onClick="ListRecords"
+        android:layout_gravity="center|top"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Record"
+        android:onClick="UpdateRecords"
+        android:layout_gravity="center|top"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Record"
+        android:onClick="DeleteRecords"
+        android:layout_gravity="center|top"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Record"
+        android:onClick="SearchRecords"
+        android:layout_gravity="center|top"
+        />
+
+
+
+</LinearLayout>
